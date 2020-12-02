@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SiActivity">
+
+    <EditText
+        android:id="@+id/etPrinciple"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter the principle"/>
+
+    <EditText
+        android:id="@+id/etRate"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter the Rate"/>
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter the Time"/>
+
+    <Button
+        android:id="@+id/btnIntrest"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Calculate"
+        android:layout_gravity="center"
+        android:backgroundTint="#b0c24a"/>
+
+    <TextView
+        android:id="@+id/tvSi"
+        android:text="0"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
